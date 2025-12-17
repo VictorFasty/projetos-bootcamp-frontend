@@ -5,7 +5,7 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 const drumButtons = document.querySelectorAll(".drum");
 
 
-// 2. Loop para cliques (Corrigido)
+// 2. Loop para cliques
 for (var i = 0; i < numberOfDrumButtons; i++) {
     // Adiciona o listener ao botão [i]
     drumButtons[i].addEventListener("click", function() {
@@ -23,7 +23,7 @@ document.addEventListener("keypress", function(event) {
 });
 
 
-// 4. Função Executor (makeSound - Correta e Completa)
+// 4. Função Executor 
 function makeSound(key) {
     switch(key) {
         case "w":
