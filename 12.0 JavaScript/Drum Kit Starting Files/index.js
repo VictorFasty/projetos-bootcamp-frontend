@@ -62,4 +62,9 @@ function makeSound(key) {
             break;
         default:
     }
+
+    function buttonanimation() {
+
+        
+    }
 }
